@@ -13,7 +13,7 @@ hi("MiniAiTextobject", { ctermfg = colors.red, ctermbg = colors.br_black })
 
 -- Mini.cursorword - commonly used
 hi("MiniCursorword", { ctermbg = colors.br_black })
-hi("MiniCursorwordCurrent", { ctermbg = colors.br_black })
+hi("MiniCursorwordCurrent", { ctermfg = colors.white, ctermbg = colors.br_black })
 
 -- Mini.diff - commonly used
 hi("MiniDiffSignAdd", { ctermfg = colors.green })
